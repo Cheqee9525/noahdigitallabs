@@ -11,7 +11,12 @@ export default defineConfig({
     inspectAttr(), 
     react(),
     sitemap({
-      hostname: 'https://noahdigitallabs.com'
+      hostname: 'https://noahdigitallabs.com',
+      dynamicRoutes: [
+        '/',
+        '/contacto.html',
+        '/portafolio.html'
+        ]
     })
   ],
   resolve: {
