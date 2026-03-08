@@ -50,6 +50,15 @@ const projects = [
   color: '#f59e0b',
   link: 'https://tuttobelle.netlify.app/',
   },
+  {
+  title: 'Toshis Sushi',
+  category: 'Food & Beverage',
+  description: 'Modern Japanese restaurant with interactive expandable menu cards, horizontal image gallery, and fluid Framer Motion animations.',
+  tags: ['React', 'TypeScript', 'Vite', 'TailwindCSS'],
+  image: '/toshisushi.png',
+  color: '#dc2626',
+  link: 'https://toshissushi.netlify.app/',
+  },
   ];
 
 export function Portfolio() {
