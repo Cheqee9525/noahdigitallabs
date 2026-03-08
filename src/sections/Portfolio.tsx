@@ -41,7 +41,16 @@ const projects = [
   color: '#f59e0b',
   link: 'https://acuyorestaurant-demo.netlify.app/',
   },
-];
+  {
+  title: 'Tutto Belle',
+  category: 'Food & Beverage',
+  description: 'Artisan gelato shop with interactive flavor gallery, location-based menus, and immersive candy-themed animations.',
+  tags: ['React', 'TypeScript', 'Vite', 'TailwindCSS', 'Framer Motion'],
+  image: '/tuttobelle.png',
+  color: '#f59e0b',
+  link: 'https://tuttobelle.netlify.app/',
+  },
+  ];
 
 export function Portfolio() {
   const { ref: headerRef, isVisible: headerVisible } = useScrollReveal<HTMLDivElement>();

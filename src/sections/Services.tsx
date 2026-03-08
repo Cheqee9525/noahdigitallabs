@@ -14,7 +14,7 @@ const services = [
     title: 'Web Development',
     description:
       'Custom websites and web applications built with cutting-edge technologies for optimal performance and scalability.',
-    features: ['React', 'Vue', 'Node.js', 'Python'],
+    features: ['React', 'TypeScript', 'Node.js', 'Vite', 'TailwindCSS'],
   },
   {
     icon: Palette,
