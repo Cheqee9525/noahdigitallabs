@@ -73,7 +73,7 @@ export function About() {
               {/* Main Image */}
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src="/about-team.jpg"
+                  src="/web.jpg"
                   alt="Our team collaborating"
                   className={`w-full aspect-[4/5] object-cover transition-all duration-1000 ${
                     imageLoaded ? 'scale-100' : 'scale-110'

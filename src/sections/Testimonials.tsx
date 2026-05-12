@@ -14,7 +14,6 @@ const testimonials = [
   {
     name: 'David Chen',
     role: 'Owner, Kitsilano Nail Studio',
-    avatar: '/',
     content:
       'I was paying for a website that did nothing for me. Noah rebuilt it in two weeks and we started getting booking requests through the site within days. Straightforward to work with, no agency runaround.',
     rating: 5,
@@ -22,7 +21,6 @@ const testimonials = [
   {
     name: 'Emily Rodriguez',
     role: 'Owner, Tutto Belle',
-    avatar: '/',
     content:
       'What surprised me most was the communication. Noah explained everything to me in terms I understood, not in technical jargon. The site is already generating online orders, and the ROI was clear in the first month.',
     rating: 5,
@@ -30,7 +28,6 @@ const testimonials = [
   {
     name: 'Megan Walsh',
     role: 'Owner, Mount Bakery',
-    avatar: '/',
     content:
       'I paid $400 for a generic template before I met Noah. For a little more, he made me something custom that actually brings me clients. A world of difference, I wish I had started with him.',
     rating: 5,
@@ -130,11 +127,7 @@ export function Testimonials() {
 
                   {/* Author */}
                   <div className="flex items-center gap-4">
-                    <img
-                      src={testimonial.avatar}
-                      alt={testimonial.name}
-                      className="w-14 h-14 rounded-full object-cover"
-                    />
+                    
                     <div>
                       <span className="block font-semibold text-dark">
                         {testimonial.name}

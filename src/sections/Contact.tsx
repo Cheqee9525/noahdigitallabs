@@ -7,10 +7,6 @@ import {
   MapPin,
   Clock,
   Send,
-  Linkedin,
-  Twitter,
-  Github,
-  Dribbble,
   CheckCircle,
 } from 'lucide-react';
 
@@ -41,12 +37,6 @@ const contactInfo = [
   },
 ];
 
-const socialLinks = [
-  { icon: Linkedin, href: '#', label: 'LinkedIn' },
-  { icon: Twitter, href: '#', label: 'Twitter' },
-  { icon: Github, href: '#', label: 'GitHub' },
-  { icon: Dribbble, href: '#', label: 'Dribbble' },
-];
 
 const projectTypes = [
   'Web Development',
@@ -160,20 +150,6 @@ export function Contact() {
                   </a>
                 );
               })}
-            </div>
-
-            <div>
-              <span className="block text-sm text-dark/50 mb-4">Follow Us</span>
-              <div className="flex gap-3">
-                {socialLinks.map((social) => {
-                  const Icon = social.icon;
-                  return (
-                    <a key={social.label} href={social.href} className="w-11 h-11 rounded-full bg-gray flex items-center justify-center text-dark hover:bg-lime hover:scale-110 transition-all duration-300">
-                      <Icon size={20} />
-                    </a>
-                  );
-                })}
-              </div>
             </div>
 
             <div className="mt-10 flex items-center gap-3 p-4 bg-lime/10 rounded-xl">

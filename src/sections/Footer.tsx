@@ -227,8 +227,8 @@ export function Footer() {
               style={{ transitionDelay: '1000ms' }}
             >
               <span>© 2026 Noah Digital Labs, Inc. All rights reserved.</span>
-              <span className="hidden md:inline">•</span>
-              <span>Made with passion in Vancouver, Canada.</span>
+              
+              
             </div>
 
             {/* Back to Top */}
