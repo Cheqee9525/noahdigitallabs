@@ -4,35 +4,35 @@ import { ChevronLeft, ChevronRight, Quote, Star } from 'lucide-react';
 
 const testimonials = [
   {
-    name: 'Sarah Mitchell',
-    role: 'CEO, TechStart',
-    avatar: '/avatar-1.jpg',
+    name: 'Daniel Mejia',
+    role: 'Owner, Cafe Orso',
+    avatar: '/',
     content:
-      'Working with this team was an absolute game-changer for our business. They delivered a website that exceeded our expectations in every way. The attention to detail and responsiveness throughout the project was outstanding.',
+      'Noah understood what we needed from the very first call. We went from taking reservations via WhatsApp to a system that saves us hours every week. The place looks amazing, and our customers notice.',
     rating: 5,
   },
   {
     name: 'David Chen',
-    role: 'Founder, GrowthLabs',
-    avatar: '/avatar-2.jpg',
+    role: 'Owner, Kitsilano Nail Studio',
+    avatar: '/',
     content:
-      'The attention to detail and technical expertise is unmatched. They transformed our vision into a stunning reality. Our new platform has helped us acquire 40% more customers in just three months.',
+      'I was paying for a website that did nothing for me. Noah rebuilt it in two weeks and we started getting booking requests through the site within days. Straightforward to work with, no agency runaround.',
     rating: 5,
   },
   {
     name: 'Emily Rodriguez',
-    role: 'Marketing Director, BrandCo',
-    avatar: '/avatar-3.jpg',
+    role: 'Owner, Tutto Belle',
+    avatar: '/',
     content:
-      'Professional, responsive, and incredibly talented. Our new website has significantly improved our conversion rates. I highly recommend their services to anyone looking for top-tier web development.',
+      'What surprised me most was the communication. Noah explained everything to me in terms I understood, not in technical jargon. The site is already generating online orders, and the ROI was clear in the first month.',
     rating: 5,
   },
   {
-    name: 'Michael Foster',
-    role: 'CTO, DataSync',
-    avatar: '/avatar-4.jpg',
+    name: 'Megan Walsh',
+    role: 'Owner, Mount Bakery',
+    avatar: '/',
     content:
-      'From start to finish, the process was seamless. They understood our complex requirements and delivered perfectly. The ongoing support has been exceptional, making them a true technology partner.',
+      'I paid $400 for a generic template before I met Noah. For a little more, he made me something custom that actually brings me clients. A world of difference, I wish I had started with him.',
     rating: 5,
   },
 ];

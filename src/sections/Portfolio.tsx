@@ -33,15 +33,6 @@ const projects = [
     link: 'https://nebulahomes-demo.netlify.app/version2',
   },
   {
-  title: 'Acuyo Restaurant',
-  category: 'Food & Beverage',
-  description: 'Mexican restaurant with table reservation system, digital menu, and real-time availability management.',
-  tags: ['React', 'TypeScript', 'Node.js', 'TailwindCSS', 'Framer Motion'],
-  image: '/acuyo.png',
-  color: '#f59e0b',
-  link: 'https://acuyorestaurant-demo.netlify.app/',
-  },
-  {
   title: 'Tutto Belle',
   category: 'Food & Beverage',
   description: 'Artisan gelato shop with interactive flavor gallery, location-based menus, and immersive candy-themed animations.',
