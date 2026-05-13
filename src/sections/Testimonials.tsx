@@ -12,24 +12,10 @@ const testimonials = [
     rating: 5,
   },
   {
-    name: 'David Chen',
-    role: 'Owner, Kitsilano Nail Studio',
-    content:
-      'I was paying for a website that did nothing for me. Noah rebuilt it in two weeks and we started getting booking requests through the site within days. Straightforward to work with, no agency runaround.',
-    rating: 5,
-  },
-  {
     name: 'Emily Rodriguez',
     role: 'Owner, Tutto Belle',
     content:
       'What surprised me most was the communication. Noah explained everything to me in terms I understood, not in technical jargon. The site is already generating online orders, and the ROI was clear in the first month.',
-    rating: 5,
-  },
-  {
-    name: 'Megan Walsh',
-    role: 'Owner, Mount Bakery',
-    content:
-      'I paid $400 for a generic template before I met Noah. For a little more, he made me something custom that actually brings me clients. A world of difference, I wish I had started with him.',
     rating: 5,
   },
 ];
